@@ -234,7 +234,7 @@ async def initiate_bot():
             if "origin" in repo.remotes:
                 origin = repo.remote("origin")
             else:
-                origin = repo.create_remote("origin", "https://github.com/PratheekXD/RessoAndSpotify")
+                origin = repo.create_remote("origin", "https://github.com/ES3GOD/RessoAndSpotify")
             origin.fetch()
             repo.create_head("main", origin.refs["main"])
             repo.heads["main"].set_tracking_branch(
@@ -242,7 +242,7 @@ async def initiate_bot():
             )
             repo.heads["main"].checkout(True)
             try:
-                repo.create_remote("origin", "https://github.com/PratheekXD/RessoAndSpotify")
+                repo.create_remote("origin", "https://github.com/ES3GOD/RessoAndSpotify")
             except BaseException:
                 pass
             nrs = repo.remote("origin")
