@@ -59,7 +59,6 @@ from Yukki.Utilities.chat import specialfont_to_normal
 from Yukki.Utilities.paste import isPreviewUp, paste_queue
 from Yukki.Utilities.theme import check_theme
 from Yukki.Utilities.thumbnails import gen_thumb
-from Yukki.Utilities.timer import start_timer
 from Yukki.Utilities.youtube import get_m3u8, get_yt_info_id
 from config import get_queue
 
@@ -357,16 +356,6 @@ async def play_spotify_playlist(_, CallbackQuery):
             else:
                 await CallbackQuery.message.reply_text(
                     "Only 1 Music in Playlist.. No more music to add in queue."
-                )
-            if for_t == 1:
-                await start_timer(
-                    send_video,
-                    duration_min,
-                    duration_sec,
-                    final_output,
-                    CallbackQuery.message.chat.id,
-                    CallbackQuery.message.from_user.id,
-                    0,
                 )
     except:
         pass
