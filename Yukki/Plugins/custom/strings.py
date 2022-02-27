@@ -59,6 +59,18 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
     ]
 )
 
+BACK_BUTTON = InlineKeyboardMarkup(
+    [   [
+            InlineKeyboardButton(
+                text="↪️ Back", callback_data="advanced_cmd"
+            ),
+            InlineKeyboardButton(
+                text="🔄 Close", callback_data="close_btn"
+            ),            
+        ],                        
+    ]
+)
+
 BASIC_TEXT = """
 📍 **Basic Commands:**
 
