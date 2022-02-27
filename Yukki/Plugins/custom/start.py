@@ -76,6 +76,10 @@ async def basic_cmd(_, query):
     await query.message.edit(text=BASIC_TEXT,reply_markup=BASIC_BACK_BUTTON,parse_mode="markdown")    
     
     
+@app.on_callback_query(filters.regex("owner_cmd"))
+async def admin_menu(_, query):
+    await query.answer()    
+    await query.message.edit(text=OWNER_TEXT,reply_markup=BACK_BUTTON,parse_mode="markdown")
     
 @app.on_callback_query(filters.regex("command_menu"))
 async def command_menu(_, query):
