@@ -45,7 +45,7 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
         ],
         [   
             InlineKeyboardButton(
-                text=💠 Commands and Menu", callback_data="command_menu"
+                text="💠 Commands and Menu", callback_data="command_menu"
             ),                       
         ],
         [
