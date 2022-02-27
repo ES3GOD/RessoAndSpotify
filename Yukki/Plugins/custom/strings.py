@@ -3,11 +3,13 @@ from Yukki import BOT_NAME, BOT_USERNAME
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 START_TEXT = f"""
-✨ **Hello MENTION !**
+**Hello MENTION**
 
-**You can use [{BOT_NAME}](https://t.me/{BOT_USERNAME}) to play Music or Videos in your Group Video Chat.**
+**This Is The Spotify & Resso Music Bot, A Bot For Playing High Quality And Unbreakable Music In Your Groups Voice Chat.**
 
-💡 **Find out all the Bot's commands and how they work by clicking on the ➤ 📚 Commands button**
+**Just Add Me To Your Group And Make A Admin With Needed Admin Permission To Perform A Right Actions !**
+
+**Use The Given Buttons For More** 📍
 """
 
 COMMANDS_TEXT = f"""
