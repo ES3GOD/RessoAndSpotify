@@ -277,13 +277,9 @@ BASIC_TEXT = """
 
 /start - start the bot
 /help - get help message
-/play - play songs or videos in vc
-/mplay - play songs directly in vc
-/vplay - play videos directly in vc
 /spotify - play songs from spotify
 /resso - play songs from resso
 /lyrics - get lyrics of song
-/ping - ping the bot
 /playlist - play your playlist
 /song - download a song as music or video
 /settings - settings of the group
