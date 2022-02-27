@@ -275,16 +275,16 @@ Here is the help for **Extra Commands:**
 BASIC_TEXT = """
 📍 **Basic Commands:**
 
-/start - start the bot
-/help - get help message
-/spotify - play songs from spotify
-/resso - play songs from resso
-/lyrics - get lyrics of song
-/playlist - play your playlist
-/song - download a song as music or video
-/settings - settings of the group
-/theme - set theme for your group
-/queue - get queued song
+>> /start - start the bot
+>> /help - get help message
+>> /spotify - play songs from spotify
+>> /resso - play songs from resso
+>> /lyrics - get lyrics of song
+>> /playlist - play your playlist
+>> /song - download a song as music or video
+>> /settings - settings of the group
+>> /theme - set theme for your group
+>> /queue - get queued song
 """
 
 BASIC_BACK_BUTTON = InlineKeyboardMarkup(
@@ -302,7 +302,7 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
 OWNER_TEXT = """
 ✨ **This Bot Is Handled And Managed By :**
 
-> [Pratheek](https://t.me/Pratheek06)
+>> [Pratheek](https://t.me/Pratheek06)
 """
 
 BASIC_BACK_BUTTON = InlineKeyboardMarkup(
