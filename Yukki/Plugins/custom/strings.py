@@ -50,10 +50,10 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="📣 Updates Channel", url="Shizuka_Updates"
+                text="📣 Updates Channel", url="https://t.me/Shizuka_Updates"
             ),
             InlineKeyboardButton(
-                text="💬 Support Group", url="Shizuka_Support"
+                text="💬 Support Group", url="https://t.me/Shizuka_Support"
             ),                       
         ],        
     ]
