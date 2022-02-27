@@ -325,12 +325,12 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
 COMMAND_MENU_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="🔍 Basic Commands", callback_data="basic_cmd"
+                text="📖 Basic Commands", callback_data="basic_cmd"
             ),                                   
         ],
         [
             InlineKeyboardButton(
-                text="📚 Advanced Commands", callback_data="owner_cmd"
+                text="💬 Report Any Bugs Here", callback_data="owner_cmd"
             ),
         ],
         [
