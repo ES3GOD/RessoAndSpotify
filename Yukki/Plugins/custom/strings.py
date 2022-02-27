@@ -299,11 +299,10 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
     ]
 )
 
-COMMANDS_BUTTON_USER = """
+OWNER_TEXT = """
 ✨ **This Bot Is Handled And Managed By :**
 
 > [Pratheek](https://t.me/Pratheek06)
-
 """
 
 BASIC_BACK_BUTTON = InlineKeyboardMarkup(
@@ -326,7 +325,7 @@ COMMAND_MENU_BUTTON = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="💬 Report Any Bugs Here", callback_data="advanced_cmd"
+                text="💬 Report Any Bugs Here", callback_data="owner_cmd"
             ),
         ],
         [
