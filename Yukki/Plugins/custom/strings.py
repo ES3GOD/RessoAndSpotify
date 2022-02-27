@@ -273,7 +273,7 @@ Here is the help for **Extra Commands:**
 """
 
 BASIC_TEXT = """
-💠 **Basic Commands:**
+📍 **Basic Commands:**
 
 /start - start the bot
 /help - get help message
@@ -303,6 +303,25 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
     ]
 )
 
+OWNER_TEXT = """
+✨ **This Bot Is Handled And Managed By :**
+
+> [Pratheek](https://t.me/Pratheek06)
+
+"""
+
+BASIC_BACK_BUTTON = InlineKeyboardMarkup(
+    [   [
+            InlineKeyboardButton(
+                text="↪️ Back", callback_data="command_menu"
+            ),
+            InlineKeyboardButton(
+                text="🔄 Close", callback_data="close_btn"
+            ),            
+        ],                        
+    ]
+)
+
 COMMAND_MENU_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
@@ -311,7 +330,7 @@ COMMAND_MENU_BUTTON = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="📚 Advanced Commands", callback_data="advanced_cmd"
+                text="📚 Advanced Commands", callback_data="owner_cmd"
             ),
         ],
         [
