@@ -59,7 +59,7 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
     ]
 )
 
-COMMANDS_BUTTON_USER = InlineKeyboardMarkup(
+COMMANDS_BUTTON_USEsR = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
                 text="Admin Commands", callback_data="admin_cmd"
@@ -299,7 +299,7 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
     ]
 )
 
-OWNER_TEXT = """
+COMMANDS_BUTTON_USER = """
 ✨ **This Bot Is Handled And Managed By :**
 
 > [Pratheek](https://t.me/Pratheek06)
@@ -326,7 +326,7 @@ COMMAND_MENU_BUTTON = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="💬 Report Any Bugs Here", callback_data="owner_cmd"
+                text="💬 Report Any Bugs Here", callback_data="advanced_cmd"
             ),
         ],
         [
