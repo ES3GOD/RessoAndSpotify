@@ -133,8 +133,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_2.join_chat("TechZBots")
-            await ASS_CLI_2.join_chat("TechZBots_Support")
+            await ASS_CLI_2.join_chat("shizuka_updates")
+            await ASS_CLI_2.join_chat("shizuka_Support")
         except:
             pass
         console.print(f"├[red] Assistant 2 Started as {ASSNAME2}!")
