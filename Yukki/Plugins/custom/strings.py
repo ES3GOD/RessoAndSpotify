@@ -20,7 +20,7 @@ START_BUTTON_GROUP = InlineKeyboardMarkup(
     [   
         [
             InlineKeyboardButton(
-                text="📚 Commands", callback_data="command_menu"
+                text="💠 Commands and Menu", callback_data="command_menu"
             ),
             InlineKeyboardButton(
                 text="🔧 Settings", callback_data="settingm"
@@ -45,7 +45,7 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
         ],
         [   
             InlineKeyboardButton(
-                text="📚 Commands", callback_data="command_menu"
+                text=💠 Commands and Menu", callback_data="command_menu"
             ),                       
         ],
         [
