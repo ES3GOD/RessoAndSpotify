@@ -3,14 +3,14 @@ import random
 from Yukki.Database import get_theme
 
 themes = [
+    black",
     "blue",
-    "black",
-    "red",
     "green",
     "grey",
-    "orange",
-    "pink",
-    "yellow",
+    "lightblue",
+    "lightred",
+    "purple",
+    "red",
 ]
 
 
