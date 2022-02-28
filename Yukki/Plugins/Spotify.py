@@ -82,7 +82,7 @@ def spotify_buttons(id,type):
     return buttons
 
 @app.on_message(
-    filters.command(["spotify", f"spotify@{BOT_USERNAME}"]) & filters.group
+    filters.command(["spotify", "play", f"spotify@{BOT_USERNAME}"]) & filters.group
 )
 @checker
 @logging
