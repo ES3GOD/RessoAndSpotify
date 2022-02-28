@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 START_TEXT = f"""
 **Hello MENTION**
 
-**This Is The Spotify & Resso Music Bot, A Bot For Playing High Quality And Unbreakable Music In Your Groups Voice Chat.**
+**This Is The Resso & Spotify Music Bot, A Bot For Playing High Quality And Unbreakable Music In Your Groups Voice Chat.**
 
 **Just Add Me To Your Group And Make A Admin With Needed Admin Permission To Perform A Right Actions !**
 
@@ -42,7 +42,7 @@ START_BUTTON_GROUP = InlineKeyboardMarkup(
 START_BUTTON_PRIVATE = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="➕ Add me to Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                text="➕ Add me to your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
             ),            
         ],
         [   
