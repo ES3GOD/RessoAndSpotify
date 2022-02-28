@@ -76,7 +76,7 @@ def resso_buttons(id,type):
     return buttons
 
 @app.on_message(
-    filters.command(["resso", f"resso@{BOT_USERNAME}"]) & filters.group
+    filters.command(["resso", "play", f"resso@{BOT_USERNAME}"]) & filters.group
 )
 @checker
 @logging
