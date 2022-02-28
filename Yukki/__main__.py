@@ -114,8 +114,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_1.join_chat("TechZBots")
-            await ASS_CLI_1.join_chat("TechZBots_Support")
+            await ASS_CLI_1.join_chat("Shizuka_Updates")
+            await ASS_CLI_1.join_chat("Shizuka_Support")
         except:
             pass
         console.print(f"├[red] Assistant 1 Started as {ASSNAME1}!")
@@ -152,8 +152,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_3.join_chat("TechZBots")
-            await ASS_CLI_3.join_chat("TechZBots_Support")
+            await ASS_CLI_3.join_chat("Shizuka_Updates")
+            await ASS_CLI_3.join_chat("Shizuka_Support")
         except:
             pass
         console.print(f"├[red] Assistant 3 Started as {ASSNAME3}!")
@@ -171,8 +171,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_4.join_chat("TechZBots")
-            await ASS_CLI_4.join_chat("TechZBots_Support")
+            await ASS_CLI_4.join_chat("Shizuka_Updates")
+            await ASS_CLI_4.join_chat("Shizuka_Support")
         except:
             pass
         console.print(f"├[red] Assistant 4 Started as {ASSNAME4}!")
@@ -190,8 +190,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_5.join_chat("TechZBots")
-            await ASS_CLI_5.join_chat("TechZBots_Support")
+            await ASS_CLI_5.join_chat("Shizuka_Updates")
+            await ASS_CLI_5.join_chat("Shizuka_Support")
         except:
             pass
         console.print(f"├[red] Assistant 5 Started as {ASSNAME5}!")
@@ -209,8 +209,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await LOG_CLIENT.join_chat("TechZBots")
-            await LOG_CLIENT.join_chat("TechZBots_Support")
+            await LOG_CLIENT.join_chat("Shizuka_Updates")
+            await LOG_CLIENT.join_chat("Shizuka_Support")
         except:
             pass
     console.print(f"└[red] Yukki Music Bot Boot Completed.")
