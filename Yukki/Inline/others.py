@@ -33,10 +33,6 @@ def others_markup(videoid, user_id):
         ],
         [
             InlineKeyboardButton(
-                text="⬅️ Go Back",
-                callback_data=f"pr_go_back_timer {videoid}|{user_id}",
-            ),
-            InlineKeyboardButton(
                 text="🗑 Close Menu",
                 callback_data=f"close",
             ),
