@@ -73,8 +73,8 @@ async def gen_thumb(thumbnail, title, userid, status, views, duration, channel):
 
     # title
     title1 = truncate(title)
-    image4.text((670, 270), text=title1[0], fill="white", font = font3, align ="left") 
-    image4.text((670, 300), text=title1[1], fill="white", font = font3, align ="left") 
+    image4.text((670, 250), text=title1[0], fill="white", font = font3, align ="left") 
+    image4.text((670, 280), text=title1[1], fill="white", font = font3, align ="left") 
 
     # description
     views = f"Views : {views}"
