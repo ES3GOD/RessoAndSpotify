@@ -81,8 +81,8 @@ async def gen_thumb(thumbnail, title, userid, status, views, duration, channel):
     duration = f"Duration : {duration} Mins"
     channel = f"Channel : {channel}"
 
-    image4.text((670, 450), text=views, fill="white", font = font4, align ="left") 
-    image4.text((670, 500), text=duration, fill="white", font = font4, align ="left") 
+    image4.text((670, 350), text=views, fill="white", font = font4, align ="left") 
+    image4.text((670, 400), text=duration, fill="white", font = font4, align ="left") 
     image4.text((670, 550), text=channel, fill="white", font = font4, align ="left")
 
     image2.save(f"cache/final{userid}.png")
